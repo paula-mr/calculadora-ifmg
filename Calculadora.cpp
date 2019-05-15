@@ -18,6 +18,6 @@ int multiplicacao(int operadorA, int operadorB) {
 }
 
 int potenciacao(int base, int potencia) {
-    return 0;
+    return pow(base, potencia);
 }
 
