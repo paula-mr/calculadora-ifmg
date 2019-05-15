@@ -1,5 +1,4 @@
 #import "Calculadora.h"
-#import "math.h"
 
 int soma(int operadorA, int operadorB) {
     return operadorA + operadorB;
@@ -18,6 +17,12 @@ int multiplicacao(int operadorA, int operadorB) {
 }
 
 int potenciacao(int base, int potencia) {
-    return 0;
+    int resultado = 1;
+
+    for (int i=0; i < potencia; i++) {
+        resultado *= base;
+    }
+
+    return resultado;
 }
 
